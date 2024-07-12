@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" contenct="with=device-width, initial scale=1.0">
+        <title></title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,
+        200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;
+        1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="working.html"><img src="images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+                 </div>
+                 <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+        <div class="text-box">
+        <h1>Welcome To Our Complaint Box</h1>
+        <h3>Take some time and place your Complaint here</h3>
+        <p>This is complaint box is an entitled medium where you can submit your feedbacks anonymously.
+            <br>Your feedbacks is our concren.We will ensure you improvemont and betterment of services.Feel free to place complaint for trnsprent communication.</p>
+        <a href="" class="hero-btn"> Visit here for complaint </a>
+    </div>    
+
+
+        </section>
+
+        <!----------About-------->
+        
+
+        <section class="about">
+            <div class="container">
+                
+                <div class="text">
+                  <h1>About Us</h1>
+                  <p>We are eager ti listen to your feedbacks and take necassary steps.This website will not others khow your identity.
+                    You can anonymously place your complaint without hesitation.Thanks for visiting. </p>
+                    <a href="" class="hero-btn1"> Know More</a>
+                </div>
+                <div class="img">
+                    <img src= "images/about.jpg">
+                  </div>
+              </div>
+        </section>
+
+
+        <!-------------Complaint box---------->
+
+
+        <section class="box">
+            <div class="image">
+                <img src= "images/complaint.jpg">
+              </div>
+            <div class="Complaint" >
+                <form>
+                    <h1><br><b>Write a Complaint</b></h1>
+                    <div class="inputBox">
+                        <input type="text" name="" required="required">
+                        <span>Enter Your Name</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" name="" required="required">
+                        <span>Enter Your Email</span>
+                    </div>
+                    <div class="inputBox">
+                        <textarea required="required" rows="8"></textarea>
+                        <span>Type Your Message.....</span>
+                    </div>
+                    <div class="tacbox">
+                        <input id="checkbox" type="checkbox" />
+                        <label for="checkbox"> Want to keep yourself anonymous</label>
+                      </div>
+                    <div class="inputBox">
+                        <input type="Submit" name="" value="Submit">
+                    </div>
+                </form>
+               
+            </div>
+        </section>
+
+
+        <!------------contact us----------->
+
+        <section class="contactinfo">
+                 <h2>Contact Us</h2>
+                 <p><br>Have a concern or issue you'd like to report? We're here to listen and help.
+                    Please share your feedback or submit a complaint using the form above.<br> We take all complaints seriously and will investigate and respond promptly. 
+                    Your input helps us improve our services and customer experience.<br> Thank you for your feedback. </p>
+                    <div class="icons">
+                        <i href="#"><ion-icon name="logo-facebook"></ion-icon></i>
+                        <i href="#"><ion-icon name="logo-instagram"></ion-icon></i>
+                        <i href="#"><ion-icon name="logo-twitter"></ion-icon></i>
+                        <i href="#"><ion-icon name="logo-google"></ion-icon></i>
+                    </div>
+
+        </section>
+
+
+
+ 
+
+
+
+
+
+
+<!-------------JavaScript for Toggle  Menu---------------->
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+    
+</script>
+
+<script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    </body>
+</html>
